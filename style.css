@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@400;500;600;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cuprum', sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main {
+    margin-top: 80px;
+    display: flex;
+    width: 90%;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.main h1 {
+    font-size: 32pt;
+}
+#contact a  {
+    background-color: black;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+.main a {
+    margin-left: 92px;
+    font-size: 32pt;
+    text-decoration: none;
+    color: black;
+}
+.main a:hover {
+    border-bottom: 2px solid black;
+}
+.intro {
+    width: 90%;
+    display: flex;
+    margin-top: 80px;
+    text-align: center;
+    display: flex;
+    text-align: justify;
+    overflow-x: auto;
+}
+.intro img {
+    width: 503px;
+    height: 347px;
+    margin-top: 84px;
+}
+.intro p {
+    margin-top: 30px;
+    font-size: 16pt;
+}
+.article1 {
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+.article3 {
+    padding-right: 200px;
+}
+footer {
+    height: 100px;
+    display: flex;
+    background-color: black;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+footer img {
+    height: 40px;
+    margin-left: 45px;
+}
+.footer-things {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+}
+.footer-things p {
+    padding-right: 78%;
+    font-size: 16pt;
+}
+@media screen and (max-width:900px) {
+    .img-nav img {
+        display: unset;
+    }
+}
